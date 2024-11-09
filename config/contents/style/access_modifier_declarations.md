@@ -64,6 +64,9 @@ the group access modifier.
     class Foo
 
       private :bar, :baz
+      private *%i[qux quux]
+      private *METHOD_NAMES
+      private *private_methods
 
     end
 
@@ -72,6 +75,9 @@ the group access modifier.
     class Foo
 
       private :bar, :baz
+      private *%i[qux quux]
+      private *METHOD_NAMES
+      private *private_methods
 
     end
 

@@ -9,23 +9,13 @@ the same format string.
 ### Example:
 
     # bad
-
     format('A value: %s and another: %i', a_value)
 
-### Example:
-
     # good
-
     format('A value: %s and another: %i', a_value, another)
 
-### Example:
-
     # bad
-
     format('Unnumbered format: %s and numbered: %2$s', a_value, another)
 
-### Example:
-
     # good
-
     format('Numbered format: %1$s and numbered %2$s', a_value, another)

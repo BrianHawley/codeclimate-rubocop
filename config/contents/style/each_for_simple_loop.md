@@ -11,7 +11,6 @@ This check only applies if the block takes no parameters.
     # good
     5.times { }
 
-### Example:
     # bad
     (0...10).each {}
 

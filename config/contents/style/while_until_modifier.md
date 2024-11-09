@@ -11,7 +11,6 @@ configured in the `Layout/LineLength` cop.
     # good
     x += 1 while x < 10
 
-### Example:
     # bad
     until x > 10
       x += 1
